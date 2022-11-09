@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.structural.adapter;
 
-public class AdapterJavaToDatabese extends JavaApplication implements Database{
+public class AdapterJavaToDatabese extends JavaApplication implements Database {
     @Override
     public void insert() {
         saveObject();

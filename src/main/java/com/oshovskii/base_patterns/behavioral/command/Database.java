@@ -1,19 +1,19 @@
 package com.oshovskii.base_patterns.behavioral.command;
 
 public class Database {
-    public void insert(){
+    public void insert() {
         System.out.println("Inserting record...");
     }
 
-    public void update(){
+    public void update() {
         System.out.println("Updating record...");
     }
 
-    public void select(){
+    public void select() {
         System.out.println("Reading record...");
     }
 
-    public void delete(){
+    public void delete() {
         System.out.println("Deleting record...");
     }
 }

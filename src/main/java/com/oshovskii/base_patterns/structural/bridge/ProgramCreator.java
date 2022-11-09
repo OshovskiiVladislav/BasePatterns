@@ -2,12 +2,12 @@ package com.oshovskii.base_patterns.structural.bridge;
 
 public class ProgramCreator {
     public static void main(String[] args) {
-        Program [] programs = {
+        Program[] programs = {
                 new BankSystem(new JavaDeveloper()),
                 new StockExchange(new CppDeveloper())
         };
 
-        for (Program program: programs) {
+        for (Program program : programs) {
             program.developProgram();
         }
     }

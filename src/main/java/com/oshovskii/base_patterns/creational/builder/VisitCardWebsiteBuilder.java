@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.creational.builder;
 
-public class VisitCardWebsiteBuilder extends WebsiteBuilder{
+public class VisitCardWebsiteBuilder extends WebsiteBuilder {
     @Override
     public void buildName() {
         website.setName("Visit card");

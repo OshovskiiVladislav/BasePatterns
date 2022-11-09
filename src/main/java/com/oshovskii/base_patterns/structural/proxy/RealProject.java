@@ -8,7 +8,7 @@ public class RealProject implements Project {
         load();
     }
 
-    public void load(){
+    public void load() {
         System.out.println("Loading project from " + url + "...");
     }
 

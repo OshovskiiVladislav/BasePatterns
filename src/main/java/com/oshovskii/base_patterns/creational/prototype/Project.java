@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.creational.prototype;
 
-public class Project implements Copyable{
+public class Project implements Copyable {
     private int id;
     private String projectName;
     private String sourceCode;

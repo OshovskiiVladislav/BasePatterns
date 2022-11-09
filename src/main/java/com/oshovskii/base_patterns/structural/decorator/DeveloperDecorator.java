@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.structural.decorator;
 
-public class DeveloperDecorator implements Developer{
+public class DeveloperDecorator implements Developer {
 
     Developer developer;
 

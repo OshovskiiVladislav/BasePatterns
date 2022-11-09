@@ -10,7 +10,7 @@ public class JavaDeveloperRunner {
         System.out.println("Developer: " + javaDeveloper.getName());
         System.out.println("Skills: ");
 
-        while (iterator.hasNext()){
+        while (iterator.hasNext()) {
             System.out.print(iterator.next().toString() + " ");
         }
     }

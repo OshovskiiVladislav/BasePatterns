@@ -3,7 +3,7 @@ package com.oshovskii.base_patterns.structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Team implements Developer{
+public class Team implements Developer {
     private List<Developer> developers = new ArrayList<>();
 
     public void addDeveloper(Developer developer) {
@@ -17,7 +17,7 @@ public class Team implements Developer{
     @Override
     public void createProject() {
         System.out.println("Team creates project...\n");
-        for(Developer developer : developers) {
+        for (Developer developer : developers) {
             developer.createProject();
         }
     }

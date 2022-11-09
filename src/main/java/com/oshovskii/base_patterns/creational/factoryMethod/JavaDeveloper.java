@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.creational.factoryMethod;
 
-public class JavaDeveloper implements Developer{
+public class JavaDeveloper implements Developer {
 
     @Override
     public void writeCode() {

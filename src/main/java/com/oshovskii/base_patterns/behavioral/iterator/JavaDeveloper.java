@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.behavioral.iterator;
 
-public class JavaDeveloper implements Collection{
+public class JavaDeveloper implements Collection {
     private String name;
     private String[] skills;
 

@@ -1,7 +1,7 @@
 package com.oshovskii.base_patterns.structural.facade;
 
 public class Developer {
-    public void doJobBeforeDeadline(BugTracker bugTracker){
+    public void doJobBeforeDeadline(BugTracker bugTracker) {
         if (bugTracker.isActiveSprint()) {
             System.out.println("Developer is solving problem...");
         } else {

@@ -7,7 +7,7 @@ public class Developer {
         this.activity = activity;
     }
 
-    public void executeActivity(){
+    public void executeActivity() {
         activity.justDoIt();
     }
 }

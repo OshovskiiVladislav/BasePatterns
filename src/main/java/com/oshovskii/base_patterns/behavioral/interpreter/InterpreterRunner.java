@@ -9,17 +9,17 @@ public class InterpreterRunner {
         System.out.println("Does developer knows Java EE: " + isJavaEEDeveloper.interpret("Java Spring"));
     }
 
-    public static Expression getJavaExpression(){
+    public static Expression getJavaExpression() {
         Expression java = new TerminalExpression("Java");
         Expression javaCore = new TerminalExpression("Java Core");
 
         return new OrExpression(java, javaCore);
     }
 
-    public static Expression getJavaEEExpression(){
+    public static Expression getJavaEEExpression() {
         Expression java = new TerminalExpression("Java");
         Expression spring = new TerminalExpression("Spring");
 
-        return new AndExpression(java,spring);
+        return new AndExpression(java, spring);
     }
 }

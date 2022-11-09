@@ -13,19 +13,19 @@ public class Developer {
         this.delete = delete;
     }
 
-    public void insertRecord(){
+    public void insertRecord() {
         insert.execute();
     }
 
-    public void updateRecord(){
+    public void updateRecord() {
         update.execute();
     }
 
-    public void selectRecord(){
+    public void selectRecord() {
         select.execute();
     }
 
-    public void deleteRecord(){
+    public void deleteRecord() {
         delete.execute();
     }
 }

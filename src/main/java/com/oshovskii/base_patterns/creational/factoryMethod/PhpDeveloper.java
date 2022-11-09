@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.creational.factoryMethod;
 
-public class PhpDeveloper implements Developer{
+public class PhpDeveloper implements Developer {
 
     @Override
     public void writeCode() {

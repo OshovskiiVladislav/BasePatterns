@@ -11,7 +11,7 @@ public class ProjectFactory {
         this.project = project;
     }
 
-    Project cloneProject(){
+    Project cloneProject() {
         return (Project) project.copy();
     }
 }

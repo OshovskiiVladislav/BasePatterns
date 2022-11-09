@@ -1,6 +1,6 @@
 package com.oshovskii.base_patterns.structural.proxy;
 
-public class ProxyProject implements Project{
+public class ProxyProject implements Project {
     private String url;
     private RealProject realProject;
 

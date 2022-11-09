@@ -1,12 +1,12 @@
 package com.oshovskii.base_patterns.structural.decorator;
 
-public class JavaTeamLead extends DeveloperDecorator{
+public class JavaTeamLead extends DeveloperDecorator {
 
     public JavaTeamLead(Developer developer) {
         super(developer);
     }
 
-    public String sendWeekReport(){
+    public String sendWeekReport() {
         return "Send week report to customer.";
     }
 

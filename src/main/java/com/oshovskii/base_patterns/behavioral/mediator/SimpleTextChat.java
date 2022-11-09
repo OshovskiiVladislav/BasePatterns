@@ -11,7 +11,7 @@ public class SimpleTextChat implements Chat {
         this.admin = admin;
     }
 
-    public void addUserToChat(User user){
+    public void addUserToChat(User user) {
         this.users.add(user);
     }
 

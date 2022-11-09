@@ -184,7 +184,7 @@
 
 **UML Diagram Composite in example code**:<br/>
 
-![UML Diagram Composite](src/main/resources/image/) - неверная картинка
+![UML Diagram Composite](src/main/resources/image/composite.png)
 
 ---
 
